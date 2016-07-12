@@ -1,0 +1,19 @@
+{
+    "name": "xiabin/monolog-mysqlhandler",
+    "description": "A handler for Monolog that sends messages to MySQL",
+    "keywords": ["log", "logging", "monolog", "mysql", "database"],
+    "homepage": "https://github.com/xiabin/monolog-mysqlhandler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiabin",
+            "email": "276147613@qq.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": ">1.4.0"
+    },
+    "autoload": {
+        "psr-4": {"MySQLHandler\\": "src/MySQLHandler"}
+    }
+}
