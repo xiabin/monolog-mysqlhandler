@@ -4,6 +4,7 @@
     "keywords": ["log", "logging", "monolog", "mysql", "database"],
     "homepage": "https://github.com/xiabin/monolog-mysqlhandler",
     "license": "MIT",
+    "minimum-stability":"dev",
     "authors": [
         {
             "name": "xiabin",
